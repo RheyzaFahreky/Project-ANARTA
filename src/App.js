@@ -1,6 +1,6 @@
 import './App.css'
 import NavigationBar from "./components/NavigationBar"
-import Intro from './components/Intro'
+import intro from "./components/Intro"
 import Koleksiterkini from "./components/Koleksiterkini"
 import Koleksiterfavorit from "./components/Koleksiterfavorit"
 import Koleksimonolog from "./components/Koleksimonolog"
