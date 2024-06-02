@@ -1,0 +1,85 @@
+.myBG {
+    height: 100vh;
+    background: url("../assets/images/bg/musikal.png");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+}
+
+.koleksiterkini {
+    height: 100vh;
+    background: url("../assets/images/bg/black.jpg");
+    background-size: cover;
+}
+
+.koleksiterfavorit {
+    height: 100vh;
+    background: url("../assets/images/bg/black.jpg");
+    background-size: cover;
+}
+
+.koleksitermonolog {
+    height: 100vh;
+    background: url("../assets/images/bg/black.jpg");
+    background-size: cover;
+}
+
+.musikalImage {
+    height: auto;
+    background-color: white;
+}
+
+.musikalWrapper {
+
+}
+
+.images {
+    height: 500px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  nav{
+    height: 90px;
+    background: #111;
+  }
+  
+  .nav-inner{ 
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .logo{
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .links a{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
