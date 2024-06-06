@@ -1,0 +1,373 @@
+/* Fonts */
+@font-face {
+    font-family: playfair;
+    src: url("../assets/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: satoshi;
+    src: url("../assets/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../assets/Segoe\ UI.ttf");
+}
+/* End Fonts */
+
+/* Header */
+.myBG{
+    height: 100vh;
+    background: url("../assets/images/awal.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    background: transparent;
+}
+
+.icons{
+    font-size:30px ;
+}
+
+.brand{
+    font-size: 40px;
+    font-family: "playfair", sans-serif;
+    font-weight: 900;
+    color: rgba(183, 164, 97, 1)
+}
+
+
+.bahasa{
+    font-size: 20px;
+    font-family: "segoe", sans-serif;
+}
+
+.btn-masuk{
+    position: relative;
+    background: rgba(183, 164, 97, 1);
+    border: 0;
+    outline: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "satoshi", sans-serif;
+    font-weight: 600;
+}
+
+.intro {
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 50PX;
+}
+
+.input{
+    background:rgba(239, 239, 239, 0.2);
+}
+
+.daftar{
+    position: relative;
+    background: rgba(253, 107, 25, 0.9);
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "satoshi", sans-serif;
+    font-weight: 600;
+    margin-top: 138px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.tittle{
+    font-family: "segoe", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.text{
+    font-family: "satoshi", sans-serif;
+    color: rgba(183, 164, 97, 1);
+}
+/* End Header */
+
+/* Content1 */
+.secBG{
+    height: 100vh;
+    background-image: linear-gradient(rgba(70, 28, 4, 0.9),rgba(0, 0, 0, 1));
+    background-size: cover;
+}
+
+
+.imglaptop img{
+    width: 700px;
+    height: auto;
+}
+
+.tittle2{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+}
+.text2{
+    font-size: 20px;
+    font-family:"satoshi", sans-serif ;
+    font-weight: 400;
+    color: #fff;
+}
+/* End Content1 */
+
+/* Content2 */
+.thirdBG{
+    height: 90vh;
+    background: #000;
+    background-size: cover;
+}
+
+
+.imgaktor img{
+    width: 300px;
+    height: 400px;
+}
+.imgaktor2 img{
+    width: 350px;
+    height: auto;
+}
+.imgaktor2{
+    padding-bottom: 20px;
+}
+
+.tittle3{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.text3{
+    font-size: 20px;
+    font-family:"satoshi", sans-serif ;
+    font-weight: 400;
+    color: #fff;
+}
+
+.judul-aktor{
+    color: rgba(255, 184, 0, 0.9);
+    font-family: "segoe", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.isi-aktor{
+    color: rgba(255, 184, 0, 0.9);
+    font-family: "segoe", sans-serif;
+}
+
+
+.imgaktor3 img{
+    height: auto;
+    width: 300px;
+}
+
+.imgaktor3{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+/* End Content2 */
+
+/* Content3 */
+.fourthBG{
+    height: 60vh;
+    background: rgba(198, 84, 20, 1);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+
+.tittle4{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 200px;
+}
+
+.text4{
+    font-size: 20px;
+    font-family:"satoshi", sans-serif ;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 600PX;
+}
+/* End Content3 */
+
+/* Content4 */
+.lastBG{
+    height: 120vh;
+    background-image: url(../assets/images/akhir.png);
+    background-size: cover;
+    padding-top: 50px;
+    background-position: center;
+}
+
+
+.tittle5{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card{
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+
+.card-text{
+    font-family: "segoe", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-body3{
+    width: 250px;
+    height: auto;
+    background: rgba(116, 58, 25, 1);
+    padding: 20px 20px 20px 20px;
+}
+
+.card-body2{
+    background: rgba(183, 164, 97, 1);
+    width: 350px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.celsi{
+    width: 250px;
+    height: 250px;
+}
+.reza{
+    width: 350px;
+    height: 350px;
+    
+}
+.dian{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.Nama3{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.Nama2{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.Profesi3{
+    color: #fff;
+    font-family:"satoshi", sans-serif ;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Profesi2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foot{
+    margin-top: 100px;
+    background: rgba(239, 239, 239, 0.15);
+    width: 500px;
+    height: 200px;
+    margin-left: 700px;
+    border-radius: 20px;
+}
+
+.siap{
+    font-family: "satoshi", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.mulai{
+    background: rgba(253, 107, 25, 0.9);
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "satoshi", sans-serif;
+    font-weight: 600;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+/* End Content4 */
+
+/* Footer */
+.footerBG{
+    background-image:linear-gradient(rgba(183, 164, 97, 1),rgba(40, 35, 18, 1)) ;
+    height: 30vh;
+}
+
+.brand-footer{
+    font-size: 40px;
+    font-family: "playfair", sans-serif;
+    font-weight: 900;
+}
+
+.Social{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.Social li{
+    margin: 0 15px;
+}
+
+.Social a{
+    text-decoration: none;
+    margin: 0rem 0 3rem 0;
+}
+
+.Contact a{
+    margin: 10px 15px ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: "satoshi", sans-serif;
+    font-weight: 700;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 13px;  
+}
+/* End Footer */

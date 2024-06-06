@@ -1,0 +1,266 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: playfair;
+    src: url("../assets/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: satoshi;
+    src: url("../assets/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../assets/Segoe\ UI.ttf");
+}
+/* End Fonts */
+
+.side{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.met{
+    margin-left: 70px;
+    height: 360px;
+    width: 850px;
+    margin-top: 50px;
+}
+
+.metode {
+    height: 300px;
+    width: 850px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.met h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.opsi {
+    width: 850px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 0px 3px grey;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.opsi h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.other{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    
+}
+
+
+.apk{
+    padding: 10px 10px 10px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.nohp{
+    padding-left: 10px;
+}
+
+.nohp h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.nohp-input{
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+.confirm{
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.btn-confirm {
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    background: rgba(255, 184, 0, 0.9);
+    padding: 5px 10px 5px 10px;
+}
+
+.nohp-input::placeholder{
+    font-weight: bold;
+}
+
+.data{
+    margin-top: 60px;
+}
+
+
+.data h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.name,
+.email,
+.Hp,
+.lahir{
+    margin-top: 20px;
+}
+
+.name,
+.email,
+.Hp h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-name,
+.input-email,
+.input-Hp{
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #fff;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.input-name::placeholder{
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(169, 169, 169, 1);
+}
+.input-email::placeholder{
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(169, 169, 169, 1);
+}
+.input-Hp::placeholder{
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(169, 169, 169, 1);
+}
+.input-umur::placeholder{
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(169, 169, 169, 1);
+}
+.input-tgllahir::placeholder{
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(169, 169, 169, 1);
+}
+
+.lahir{
+    display: flex;
+    justify-content: start;
+}
+
+.input-umur{
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #fff;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.input-tgllahir{
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.umur,
+.tanggallahir h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tanggallahir{
+    margin-left: 30px;
+}
+
+.mps2-tiket{
+    width: 700px;
+    height: auto;
+}
+
+.body-card{
+    background: #fff;
+    width: 700px;
+    height: 300px;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.laku{
+    margin-top: 40px;
+}
+
+.body-card h5{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.judul-beli{
+    display: flex;
+    justify-content: space-between;
+}
+
+.duit{
+    padding-right: 20px;
+}
+
+.jadwal-beli{
+    padding-left: 18px;
+}
+
+.loc-beli{
+    padding-left: 17px;
+}
+
+.body-card p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pers-beli{
+    padding-left: 20px;
+}

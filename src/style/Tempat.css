@@ -1,0 +1,155 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: playfair;
+    src: url("../assets/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: satoshi;
+    src: url("../assets/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../assets/Segoe\ UI.ttf");
+}
+/* End Fonts */
+
+
+.tempatBG{
+    height: 150vh;
+    background: url("../assets/images/awal.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.nama-acara{
+    margin-top: 100px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.informasi-tayang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rincian-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 68%;
+    margin-left: 16%;
+}
+
+.rincian-info p{
+    font-family: "satoshi", sans-serif;
+    font-size: 30px;
+}
+
+.container-tempat{
+    margin-top: 20px;
+    border-radius: 40px;
+    height: 90vh;
+    width: 90vh;
+    background: rgba(206, 206, 206, 0.3);
+    margin-bottom: 150px;
+}
+
+.isi-info{
+    padding-top: 40px;
+    padding-left: 89px;
+    padding-right: 89px;
+}
+
+.isi-info p{
+    font-family: "satoshi", sans-serif;
+    font-size: 26px;
+}
+
+.isi-info .harga-tiket{
+    color: rgba(255, 184, 0, 0.9);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.isi-info h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: rgba(255, 184, 0, 0.9);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 0.9;
+}
+
+.row-tempat{
+    height: 100px;
+    display: flex;
+    margin: 30px;
+}
+
+.col-tempat{
+    border-radius: 10px;
+    background:#fff ;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tgl{
+    height: 60px;
+    width: 40px;
+}
+
+.col-tempat .no-studio{
+    font-family: "satoshi", sans-serif;
+    padding-left: 10px;   
+    font-size: 60px;
+}
+
+.col-tempat .tgl{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.col-tempat .nama-studio{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.col-tempat .jam-tayang{
+    font-family: "satoshi", sans-serif;
+    font-size: 28px;
+}
+
+.col-tempat .btn-status{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(253, 107, 25, 0.9);
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 2px 3px rgba(206, 206, 206, 1);
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+}
+.col-tempat .btn-status-habis{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background: rgba(206, 206, 206, 1);
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 2px 3px rgba(206, 206, 206, 1);
+    border: none;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+}

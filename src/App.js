@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Dashboard from './pages/Dashboard';
+import Tiket from './pages/Tiket'
+import Login from './pages/Login'
+import Register from './pages/Register'
+import TiketSemua from './pages/TiketSemua';
+import Tempat from './pages/Tempat';
+import DetailPesanan from './pages/DetailPesanan';
+import Beranda from './pages/Beranda';
+import ProsesBeli from './pages/ProsesBeli';
+import PlayerVid from './pages/PlayerVid';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Dashboard/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Register' element={<Register/>}/>
+        <Route path='/Beranda' element={<Beranda/>}/>
+        <Route path='/PlayerVid' element={<PlayerVid/>}/>
+        <Route path='/Tiket' element={<Tiket/>}/>
+        <Route path='/TiketSemua' element={<TiketSemua/>}/>
+        <Route path='/Tempat' element={<Tempat/>}/>
+        <Route path='/DetailPesanan' element={<DetailPesanan/>}/>
+        <Route path='/ProsesBeli' element={<ProsesBeli/>}/>
+
+
+      </Routes>
+    </Router>
   );
 }
 

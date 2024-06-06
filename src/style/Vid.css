@@ -1,0 +1,221 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: playfair;
+    src: url("../assets/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: satoshi;
+    src: url("../assets/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../assets/Segoe\ UI.ttf");
+}
+/* End Fonts */
+
+
+.vidBG{
+    height: 150vh;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-player {
+    flex: 3;
+    padding: 20px;
+}
+
+.video-info {
+    text-align: left;
+}
+
+.video-info h2, .video-info h3, .video-info p {
+    color: white;
+    margin: 0;
+}
+
+.video-info p {
+    margin: 10px 0;
+}
+
+.video-info a {
+    color: #ffc107;
+    text-decoration: none;
+}
+.episode-detail {
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.episode-detail h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+
+.episode-detail h2 {
+    font-family: 'segoe', sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.episode-detail .category {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f7b500;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.episode-detail .views-date {
+    font-family: 'segoe', sans-serif;
+    background-color: #2c2c2c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.episode-detail .description {
+    font-family: 'segoe', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.episode-detail hr {
+    font-family: 'segoe', sans-serif;
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin: 20px 0;
+}
+
+.episode-detail .follow {
+    font-family: 'segoe', sans-serif;
+    font-size: 1em;
+}
+
+.episode-detail .follow a {
+    font-family: 'segoe', sans-serif;
+    color: #f7b500;
+    text-decoration: none;
+}
+
+.episode-detail .follow a:hover {
+    text-decoration: underline;
+}
+
+
+.sidebar {
+    width: 60%;
+}  
+
+.episode-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #1c1c1c;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+}
+
+.episode {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.episode:hover {
+    background-color: #333;
+}
+
+.episode img {
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.episode-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.episode-details h4 {
+    margin: 0;
+    color: #fff;
+}
+
+.episode-details p {
+    margin: 5px 0 0;
+    color: #ccc;
+}
+
+.comment-section {
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    
+}
+
+.comment-section h3 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.comment-input,
+.comment-textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.comment-button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.comment-button:hover {
+    background-color: #e0a800;
+}
+
+.episode-list{
+    height: 750px;
+}
+
+

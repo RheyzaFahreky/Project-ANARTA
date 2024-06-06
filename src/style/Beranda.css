@@ -1,0 +1,39 @@
+.berandaBG{
+    height: 100vh;
+    background: url("../assets/images/musikal.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.introBeranda {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.titleBeranda {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+}
+
+.koleksiterkini {
+    height: 100vh;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}
+.koleksiterfavorit {
+    height: 100vh;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}
+.koleksimonolog {
+    height: 100vh;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}

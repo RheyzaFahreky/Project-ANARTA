@@ -1,0 +1,83 @@
+/* Fonts */
+@font-face {
+    font-family: playfair;
+    src: url("../assets/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: satoshi;
+    src: url("../assets/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../assets/Segoe\ UI.ttf");
+}
+/* End Fonts */
+
+.bodyBG2{
+    height: 150vh;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}
+
+.search-expand{
+    margin-top: 50px;
+}
+
+.search-form {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search-box {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 184, 0, 0.9);
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+}
+
+.search-box:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px rgba(255, 184, 0, 0.9);
+}
+
+.search-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    background:transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: rgba(255, 184, 0, 0.9);
+    border-radius: 10px;
+}
+
+.search-form button i {
+    font-size: 20px;
+}
+
+.kategori-event{
+    padding-left: 90px;
+}
+
+.tiket-ada{
+    color: rgba(9, 115, 0, 1);
+    padding-top: 25px;
+}
+
+.event-bawah{
+    padding-bottom: 100px;
+}
+
+.ada{
+    cursor: pointer;
+}

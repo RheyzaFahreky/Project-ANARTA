@@ -1,0 +1,351 @@
+/* Fonts */
+@font-face {
+    font-family: playfair;
+    src: url("../assets/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: satoshi;
+    src: url("../assets/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: segoe;
+    src: url("../assets/Segoe\ UI.ttf");
+}
+/* End Fonts */
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.bodyBG{
+    height: 240vh;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    background: rgba(164, 156, 88, 0.3);
+    font-family: "segoe", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.fitur{
+    display: flex;
+}
+
+.fitur li a{
+    padding: 10px 30px;
+}
+
+.fitur ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.brand{
+    font-family: "playfair", serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.brand a{
+    color:#fff ;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fitur li a {
+    color:white ;
+    font-family: "segoe", sans-serif;
+    font-size: 20PX;
+    font-weight: 500;
+    padding: 40px 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fitur li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: rgba(239, 175, 8, 1);
+}
+
+li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.fitur .active{
+    color: rgba(239, 175, 8, 1);
+}
+
+nav .fitur li a:hover, a.active{
+    color: rgba(239, 175, 8, 1);
+}
+
+/* Teater */
+.teater{
+    width: 1500px;
+    height: 700px;
+    padding-top: 50px;
+    margin-left: 210px;
+}
+/* End Teater */
+
+/* Searchbar */
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 200px;
+    padding-right: 100px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 60px;
+    border-radius: 10px;
+    background: rgba(139, 139, 139, 0.2);
+    transition: background 0.25s;
+}
+
+.search:focus-within{
+    background: rgba(181, 181, 181, 0.2);
+}
+
+.search-input{
+    font-family: "satoshi", sans-serif;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-right: 60px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.search-input::placeholder{
+    color: #fff;
+}
+/* End Searchbar */
+
+/* Rekomendasi */
+.kategori {
+    color: #fff;
+    font-family: "segoe", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.card-teater{
+    background: rgba(183, 164, 97, 0.7);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.bawang{
+    width: 300px;
+    height: 200px;
+}
+
+.clock{
+    margin-left: 20px;
+}
+
+.judul-teater{
+    font-family: "satoshi", sans-serif;
+    font-weight: 900;
+}
+
+.Info{
+    display: flex;
+    justify-content: space-between;
+    font-family: "satoshi", sans-serif;
+    font-weight: 700;
+}
+/* Tiket1 */
+.tiket-1{
+    color: rgba(255, 184, 0, 0.9);
+    padding-top: 25px;
+}
+.info-harga-1{
+    font-weight: 500;
+}
+.harga-1{
+    color: rgba(255, 184, 0, 0.9);
+}
+
+.jadwal{
+    font-family: "satoshi", sans-serif;
+}
+/* EndTiket1 */
+
+/* Tiket2 */
+.card-teater-2{
+    background: rgba(183, 164, 97, 1);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+.tiket-2{
+    color: rgba(224, 56, 19, 1);
+    padding-top: 25px;
+}
+.info-harga-2{
+    font-weight: 500;
+}
+.harga-2{
+    color: rgba(224, 56, 19, 1);
+}
+/* EndTiket2 */
+
+/* Tiket3 */
+.card-teater-3{
+    background: rgba(223, 204, 156, 1);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+.mps2{
+    width: 300px;
+    height: 200px;
+}
+.tiket-3{
+    color: rgba(224, 56, 19, 1);
+    padding-top: 25px;
+}
+.info-harga-3{
+    font-weight: 500;
+}
+.harga-3{
+    color: rgba(224, 56, 19, 1);
+}
+/* EndTiket3 */
+
+/* Tiket4 */
+.card-teater-4{
+    background: rgba(255, 184, 0, 0.9);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+.timun{
+    width: 300px;
+    height: 200px;
+}
+.tiket-4{
+    color: rgba(224, 56, 19, 1);
+    padding-top: 25px;
+}
+.info-harga-4{
+    font-weight: 500;
+}
+.harga-4{
+    color: rgba(224, 56, 19, 1);
+}
+/* EndTiket4 */
+/* End Rekomendasi */
+
+/* PENJUALAN */
+.jual{
+    margin-top: 150px;
+}
+/* Jual1 */
+.card-jual-1{
+    background: rgba(116, 58, 25, 1);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+/* End Jual1 */
+
+/* Jual2 */
+.card-jual-2{
+    background: rgba(198, 84, 20, 1);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+.tiket-5{
+    color: rgba(255, 184, 0, 0.9);
+    padding-top: 25px;
+}
+.info-harga-5{
+    font-weight: 500;
+}
+.harga-5{
+    color: rgba(255, 184, 0, 0.9);
+}
+/* End Jual2 */
+
+/* Jual3 */
+.card-jual-3{
+    background: rgba(255, 184, 0, 0.9);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+
+.card-jual-4{
+    background: rgba(183, 164, 97, 1);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+/* End PENJUALAN */
+
+/* Lainnya */
+.gradientBG{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(70, 28, 4, 0.9));
+    background-size: cover;
+}
+
+.Lain {
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-color: rgba(255, 184, 0, 0.9);
+    border-style: outset;
+    border-radius: 10px;
+}
+
+.card-lainnya{
+    background: rgba(255, 255, 255, 1);
+    width: 300px;
+    height: 190px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn-lain {
+    color: rgba(255, 184, 0, 0.9);
+    border-color: rgba(255, 184, 0, 0.9);
+    background: transparent;
+    padding: 10px 10px 10px 10px;
+    font-family: "satoshi", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
