@@ -13,14 +13,20 @@
 }
 /* End Fonts */
 
-
+.logBG{
+  height: 120vh; 
+  background: url(../assets/images/bg-2.png);
+  background-position: center;
+}
 
 .login-container,
 .daftar-container{
+    margin-top: 200px;
+    margin-bottom: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 120vh; 
+
   }
   
   .login-main,
@@ -29,14 +35,11 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    background: url(../assets/images/bg-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
-  .login-box,
-  .daftar-box {
-    width: 300px;
+  .login-box{
+    width: 450px;
+    height: 530px;
     padding: 20px;
     margin: 0 auto;
     border-radius: 8px;
@@ -45,61 +48,98 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: none;
+  }
+
+  .daftar-box{
+    width: 450px;
+    height: 550px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: none;
   }
   
   
   .login-box h2 {
+    margin-top: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
     margin-bottom: 20px;
     font-family: "segoe", sans-serif;
   }
 
   .daftar-box h2 {
+    margin-top: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
     margin-bottom: 20px;
     font-family: "segoe", sans-serif;
   }
   
   .login-box form input {
-    width: 100%;
+    width: 400px;
     padding: 10px;
     margin: 10px 0;
     border: none;
     border-radius: 4px;
     background-color: #fff;
-    font-family: "satoshi", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
   }
 
   .daftar-box form input{
-    width: 100%;
+    width: 400px;
     padding: 10px;
     margin: 10px 0;
     border: none;
     border-radius: 4px;
     background-color: #fff;
-    font-family: "satoshi", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
   }
-  
+
+  .login-box form p{
+    color: #fff;
+    padding-left: 8px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
   .submit-button {
-    width: 100%;
+    width: 400px;
     padding: 10px;
     background-color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     color:black;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: "segoe", sans-serif;
+    font-weight: 800;
   }
   
   .submit-button:hover {
-    background-color: black; /* Green */
+    background-color: black;
     color: white;
   }
   
   .register-link{
     padding: 10px;
+    margin-top: 50px;
+  }
+
+  .register-link p{
+    color: #fff;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
   }
   
   .register-link a{
-    color: orangered;
+    color: rgba(255, 184, 0, 0.9);
   }

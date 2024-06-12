@@ -1,16 +1,29 @@
 .berandaBG{
     height: 100vh;
-    background: url("../assets/images/musikal.png");
+    background: #000;
     background-size: cover;
     background-position: center;
 }
 
-.introBeranda {
+/* .introBeranda {
     height: 300px;
     display: flex;
     justify-content: end;
     align-items: end;
+} */
+
+.slider-vid{
+    height: 880px;
+    width: 100%;
+    border-radius: 50px;
+
 }
+.slider-vid-special{
+    height: 880px;
+    width: 100%;
+    border-radius: 0;
+}
+
 
 .titleBeranda {
     font-size: 3rem;
@@ -26,14 +39,129 @@
     background-position: center;
 }
 .koleksiterfavorit {
-    height: 100vh;
+    height: 60vh;
     background: #000;
     background-size: cover;
     background-position: center;
 }
 .koleksimonolog {
-    height: 100vh;
+    height: 60vh;
     background: #000;
     background-size: cover;
     background-position: center;
 }
+
+.searchbar2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.vidPict{
+    width: 400px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.vidCat{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-family: "satoshi", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.vidCat-Spesial{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-family: "satoshi", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(253, 107, 25, 0.9);
+}
+
+.vidSlider{
+    margin-left: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+
+.vidPictPayung{
+    border-radius: 10px;
+    width: 460px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.vidText h4{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.vidText p{
+    font-size: 20px;
+    font-family: "segoe", sans-serif;
+}
+
+.slide-capt h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 60px;
+}
+.slide-capt p{
+    font-size: 50px;
+    font-family: "satoshi", sans-serif;
+}
+.slide-capt h3{
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgba(255, 184, 0, 0.9);
+}
+
+.slide-capt-2 h3{
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgba(255, 184, 0, 0.9);
+}
+
+.slide-capt-2{
+    display: flex;
+    justify-content: space-between;
+}
+.slide-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.btn-fav{
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    border: none;
+    background: rgba(253, 107, 25, 0.9);
+}
+
+.btn-tonton{
+    border-radius: 10px;
+    width: 180px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    border: none;
+    background: rgba(164, 156, 88, 0.6);
+}
+
+.slide-capt-2,
+.slide-capt{
+    margin-bottom: 40px;
+}
+
+

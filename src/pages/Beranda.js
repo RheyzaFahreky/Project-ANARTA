@@ -7,6 +7,7 @@ import KoleksiTerkini from "../components/KoleksiTerkini";
 import KoleksiTerfavorit from "../components/KoleksiTerfavorit";
 import KoleksiMonolog from "../components/KoleksiMonolog";
 import NavbarBeranda from "../components/NavbarBeranda";
+import Searchbar2 from "../components/searchbar2"
 
 const Beranda = () => {
     return(
@@ -17,6 +18,7 @@ const Beranda = () => {
             </div>
 
             <div className="koleksiterkini">
+                <Searchbar2 />
                 <KoleksiTerkini/>
             </div>
 

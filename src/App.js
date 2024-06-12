@@ -9,6 +9,8 @@ import DetailPesanan from './pages/DetailPesanan';
 import Beranda from './pages/Beranda';
 import ProsesBeli from './pages/ProsesBeli';
 import PlayerVid from './pages/PlayerVid';
+import Checkout from './pages/Checkout'
+
 
 function App() {
   return (
@@ -24,8 +26,7 @@ function App() {
         <Route path='/Tempat' element={<Tempat/>}/>
         <Route path='/DetailPesanan' element={<DetailPesanan/>}/>
         <Route path='/ProsesBeli' element={<ProsesBeli/>}/>
-
-
+        <Route path='/Checkout' element={<Checkout/>}/>
       </Routes>
     </Router>
   );

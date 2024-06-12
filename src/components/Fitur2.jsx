@@ -29,7 +29,7 @@ const Fitur2 = () => {
                     <Col>
                     <div className="imgaktor2"><img src={pic2} alt="aktor" className="aktor2" /></div>
                     </Col>
-                    <Col className="mx-5 my-5 aktor3">
+                    <Col className="mx-5 mt-5 aktor3">
                     <div className="imgaktor3"><img src={pic3} alt="aktor"/></div>
                     </Col>
                 </Row>

@@ -5,21 +5,18 @@ import "../style/DetailPesanan.css"
 import "../style/ProsesBeli.css"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import ProgresBar1 from "../components/ProgresBar1"
+import ProgresBar2 from "../components/ProgresBar2"
 import DetailPembayaran from "../components/DetailPembayaran"
 import TiketBeli from "../components/TiketBeli"
 import { useNavigate } from "react-router-dom"
-import { useState } from 'react';
-import Alert from 'react-bootstrap/Alert';
 
 
-const ProsesBeli = () => {
+const Checkout = () => {
     const navigate = useNavigate()
-    const [show, setShow] = useState(true);
     return(
         <div className="detailBG">
             <Navbar />
-            <ProgresBar1 />
+            <ProgresBar2 />
             <main className="main-content">
             <DetailPembayaran />
 
@@ -28,7 +25,7 @@ const ProsesBeli = () => {
                 </aside>
             </main>
             <div className="pesanan">
-            <button className="btn-pesanan" onClick={() => navigate('/Checkout') }>Buat Pesanan</button>
+            <button className="btn-pesanan" onClick={() => navigate('/Tiket') }>Kembali</button>
             </div>
 
             <div className="footerBG">
@@ -38,4 +35,4 @@ const ProsesBeli = () => {
     )
 }
 
-export default ProsesBeli
+export default Checkout

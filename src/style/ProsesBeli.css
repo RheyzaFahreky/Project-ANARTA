@@ -223,7 +223,7 @@
 .body-card{
     background: #fff;
     width: 700px;
-    height: 300px;
+    height: 250px;
     border-radius: 0 0 10px 10px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -246,6 +246,7 @@
 
 .duit{
     padding-right: 20px;
+    padding-top: 15px;
 }
 
 .jadwal-beli{
@@ -263,4 +264,83 @@
 
 .pers-beli{
     padding-left: 20px;
+}
+
+.tbltersedia{
+    background: rgba(223, 214, 127, 1);
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 35px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tersediatext{
+    padding-right: 15px;
+}
+
+.txtjumlah{
+    padding-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.txttotal{
+    padding-right: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 20px;
+}
+.pajak{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.subtotal p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.pajak{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.totalsemua{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.totalsemua{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-pesanan{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    color: #000;
+    background: rgba(255, 184, 0, 0.9);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.pesanan{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }

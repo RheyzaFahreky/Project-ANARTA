@@ -17,7 +17,7 @@
 
 
 .detailBG{
-    height: 150vh;
+    height: 160vh;
     background-image: linear-gradient(rgba(70, 28, 4, 0.9),rgba(0, 0, 0, 1));
     background-size: cover;
     background-position: center;
@@ -52,6 +52,7 @@
 
 .progres-bar .step .bullet{
     background: #000;
+    
     position: relative;
     height: 25px;
     width: 25px;
